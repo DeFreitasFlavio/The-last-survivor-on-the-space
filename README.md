@@ -8,3 +8,4 @@
  - Damage multiplier in relation to the number of kills
  - Leaderboards (if i can)
  - Store systeme, where you can buy upgrade for the game
+ - Display of the hearts
