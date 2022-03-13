@@ -14,22 +14,22 @@
   ],
   "layers": [
     {"instances":[
-        {"properties":[],"isDnd":false,"objectId":{"name":"obj_title","path":"objects/obj_title/obj_title.yy",},"inheritCode":false,"hasCreationCode":false,"colour":4294967295,"rotation":0.0,"scaleX":1.03720927,"scaleY":1.11307418,"imageIndex":0,"imageSpeed":1.0,"inheritedItemId":null,"frozen":false,"ignore":false,"inheritItemSettings":false,"x":704.0,"y":352.0,"resourceVersion":"1.0","name":"inst_2D7BB947","tags":[],"resourceType":"GMRInstance",},
+        {"properties":[],"isDnd":false,"objectId":{"name":"obj_dead","path":"objects/obj_dead/obj_dead.yy",},"inheritCode":false,"hasCreationCode":false,"colour":4294967295,"rotation":0.0,"scaleX":1.42047334,"scaleY":1.51606417,"imageIndex":0,"imageSpeed":1.0,"inheritedItemId":null,"frozen":false,"ignore":false,"inheritItemSettings":false,"x":256.0,"y":288.0,"resourceVersion":"1.0","name":"inst_4D6D3711","tags":[],"resourceType":"GMRInstance",},
       ],"visible":true,"depth":0,"userdefinedDepth":false,"inheritLayerDepth":false,"inheritLayerSettings":false,"gridX":32,"gridY":32,"layers":[],"hierarchyFrozen":false,"effectEnabled":true,"effectType":null,"properties":[],"resourceVersion":"1.0","name":"Instances","tags":[],"resourceType":"GMRInstanceLayer",},
-    {"spriteId":{"name":"spr_darktile","path":"sprites/spr_darktile/spr_darktile.yy",},"colour":4294967295,"x":0,"y":0,"htiled":true,"vtiled":true,"hspeed":-1.0,"vspeed":0.0,"stretch":false,"animationFPS":30.0,"animationSpeedType":0,"userdefinedAnimFPS":false,"visible":true,"depth":100,"userdefinedDepth":false,"inheritLayerDepth":false,"inheritLayerSettings":false,"gridX":32,"gridY":32,"layers":[],"hierarchyFrozen":false,"effectEnabled":true,"effectType":null,"properties":[],"resourceVersion":"1.0","name":"Background","tags":[],"resourceType":"GMRBackgroundLayer",},
+    {"spriteId":null,"colour":4278190080,"x":0,"y":0,"htiled":false,"vtiled":false,"hspeed":0.0,"vspeed":0.0,"stretch":false,"animationFPS":15.0,"animationSpeedType":0,"userdefinedAnimFPS":false,"visible":true,"depth":100,"userdefinedDepth":false,"inheritLayerDepth":false,"inheritLayerSettings":false,"gridX":32,"gridY":32,"layers":[],"hierarchyFrozen":false,"effectEnabled":true,"effectType":null,"properties":[],"resourceVersion":"1.0","name":"Background","tags":[],"resourceType":"GMRBackgroundLayer",},
   ],
   "inheritLayers": false,
   "creationCodeFile": "",
   "inheritCode": false,
   "instanceCreationOrder": [
-    {"name":"inst_2D7BB947","path":"rooms/Title_screen/Title_screen.yy",},
+    {"name":"inst_4D6D3711","path":"rooms/Dead/Dead.yy",},
   ],
   "inheritCreationOrder": false,
   "sequenceId": null,
   "roomSettings": {
     "inheritRoomSettings": false,
-    "Width": 1366,
-    "Height": 768,
+    "Width": 1600,
+    "Height": 900,
     "persistent": false,
   },
   "viewSettings": {
@@ -50,7 +50,7 @@
     "path": "folders/Room.yy",
   },
   "resourceVersion": "1.0",
-  "name": "Title_screen",
+  "name": "Dead",
   "tags": [],
   "resourceType": "GMRoom",
 }

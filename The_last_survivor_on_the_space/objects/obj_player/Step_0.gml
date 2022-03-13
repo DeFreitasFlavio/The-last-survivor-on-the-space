@@ -50,12 +50,12 @@ if(mouse_check_button(mb_left)) && (cooldown < 1) {
 
 	// Tirs Puissant
 if(mouse_check_button(mb_right)) && (keyboard_check(vk_shift)) && (cooldown < 1) {
-	instance_create_layer(x, y, "LayerBullet", obj_bulletpower);
+	instance_create_layer(x, y, "LayerBullet", obj_bulletpink);
 	cooldown = 30;
 }
 
 if(mouse_check_button(mb_right)) && (cooldown < 1) {
-	instance_create_layer(x, y, "LayerBullet", obj_bulletpower);
+	instance_create_layer(x, y, "LayerBullet", obj_bulletpink);
 	cooldown = 20;
 }
 cooldown = cooldown - 1;
